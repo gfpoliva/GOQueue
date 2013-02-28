@@ -69,8 +69,9 @@ The methods of Queue are:
  SOFTWARE.
  
  ```
+ ---
  
- # Contact
+ Contact
  ---
  
  You can contact me at @gabrieloliva_
