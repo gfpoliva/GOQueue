@@ -71,7 +71,6 @@ The methods of Queue are:
  ```
  ---
  
- Contact
- ---
+# Contact
  
- You can contact me at @gabrieloliva_
+You can contact me at @gabrieloliva_
