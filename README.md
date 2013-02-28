@@ -6,7 +6,7 @@ GOQueue is an implementation of an abstract data type in Objective-C.
 # Using
 It is very easy to use.
 
-First of all, you need to import on your file
+First of all, you need to add the source files into your project and then import in the file that you want to use.
 ```  objc
 
 #import "GOQueue.h"
@@ -40,6 +40,14 @@ The methods of Queue are:
 
 // Returns the number of items in queue
 - (int)numberOfElementsInQueue;
+```
+
+I also created a category for NSMutableArray. This allow us to init a NSMutableArray with a Queue!
+To do this, we need to import the category `#import "NSMutableArray+GOQueue.h"` and then initialize with the option:
+``` objc
+
+NSMutableArray *mutableArray = [[NSMutableArray alloc] initWithGOQueue:queueName];
+
 ```
 
 # License
